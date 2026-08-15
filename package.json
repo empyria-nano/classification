@@ -1,0 +1,40 @@
+{
+	"name": "@principia/classification",
+	"version": "0.1.0",
+	"description": "Low-level utility functions for higher-level libraries in the Principia nanoservice framework",
+	"license": "MIT",
+	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imrefazekas/principia-classification.git"
+	},
+	"type": "module",
+	"main": "./ArClass.js",
+	"exports": {
+		".": "./ArClass.js",
+		"./lib/*": "./lib/*.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"format": "bun oxfmt --check",
+		"format:fix": "bun oxfmt",
+		"lint": "bun oxlint",
+		"lint:fix": "bun oxlint --fix",
+		"test": "bun test --coverage",
+		"test:watch": "bun test --watch"
+	},
+	"dependencies": {
+		"isa.js": "2.2.18",
+		"ms": "2.1.3",
+		"transliteration": "2.6.1"
+	},
+	"devDependencies": {
+		"oxfmt": "0.63.0",
+		"oxlint": "1.78.0"
+	},
+	"engines": {
+		"bun": ">=1.4.0",
+		"node": ">=26"
+	},
+	"packageManager": "bun@1.4.0"
+}
