@@ -1,11 +1,11 @@
 import { now, toZoned } from './lib/Date.js'
 
-export * from './lib/ArrayServices'
-export * from './lib/Chunker'
-export * from './lib/Date'
-export * from './lib/Helpers'
-export * from './lib/Math'
-export * from './lib/Name'
+export * from './lib/ArrayServices.js'
+export * from './lib/Chunker.js'
+export * from './lib/Date.js'
+export * from './lib/Helpers.js'
+export * from './lib/Math.js'
+export * from './lib/Name.js'
 
 /** Generic "operation succeeded" status flag. */
 export const OK = 'OK'
