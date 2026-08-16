@@ -1,4 +1,4 @@
-# @principia/classification
+# @empyria/classification
 
 Low-level utility functions for higher-level libraries in **Principia**, a nanoservice
 framework built primarily on Bun.
@@ -18,20 +18,20 @@ for all date/time handling.
 ## Install
 
 ```bash
-bun add @principia/classification
+bun add @empyria/classification
 ```
 
 ## Usage
 
 ```js
-import { startOfDay, capitalise, groupBy, chunkDocument } from '@principia/classification'
+import { startOfDay, capitalise, groupBy, chunkDocument } from '@empyria/classification'
 ```
 
 Everything is re-exported from the package root via [ArClass.js](./ArClass.js). Individual
 modules under `lib/` can also be imported directly if you only need one:
 
 ```js
-import { formatRetention } from '@principia/classification/lib/Date.js'
+import { formatRetention } from '@empyria/classification/lib/Date.js'
 ```
 
 ## Modules

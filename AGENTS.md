@@ -26,7 +26,7 @@ framework built primarily on Bun. No framework logic here — just shared helper
 
 ## Consumption gotcha
 
-This package is consumed by sibling repos (e.g. `principia-common`) via a **git dependency**
+This package is consumed by sibling repos (e.g. `empyria-common`) via a **git dependency**
 pointing at this repo's GitHub remote — not a local link. Local changes here are invisible to
 consumers until they're committed **and pushed**. If a change here is meant to unblock work in
 another Principia repo, say so explicitly before assuming it already took effect there.
