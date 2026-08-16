@@ -1,7 +1,7 @@
 {
 	"name": "@empyria/classification",
-	"version": "0.1.0",
-	"description": "Low-level utility functions for higher-level libraries in the Principia nanoservice framework",
+	"version": "0.1.1",
+	"description": "Low-level utility functions for higher-level libraries in the Empyria nanoservice framework",
 	"license": "MIT",
 	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
 	"repository": {

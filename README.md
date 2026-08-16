@@ -1,10 +1,10 @@
 # @empyria/classification
 
-Low-level utility functions for higher-level libraries in **Principia**, a nanoservice
+Low-level utility functions for higher-level libraries in **Empyria**, a nanoservice
 framework built primarily on Bun.
 
 This package has no framework-specific logic of its own — it's the shared foundation
-(date/time, array, object, string, and chunking helpers) that other Principia libraries
+(date/time, array, object, string, and chunking helpers) that other Empyria libraries
 build on.
 
 ## Requirements

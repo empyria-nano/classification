@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Low-level utility functions for higher-level libraries in **Principia**, a nanoservice
+Low-level utility functions for higher-level libraries in **Empyria**, a nanoservice
 framework built primarily on Bun. No framework logic here — just shared helpers.
 
 ## Runtime
@@ -29,4 +29,4 @@ framework built primarily on Bun. No framework logic here — just shared helper
 This package is consumed by sibling repos (e.g. `empyria-common`) via a **git dependency**
 pointing at this repo's GitHub remote — not a local link. Local changes here are invisible to
 consumers until they're committed **and pushed**. If a change here is meant to unblock work in
-another Principia repo, say so explicitly before assuming it already took effect there.
+another Empyria repo, say so explicitly before assuming it already took effect there.
