@@ -1,6 +1,6 @@
 {
 	"name": "@empyria/classification",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "Low-level utility functions for higher-level libraries in the Empyria nanoservice framework",
 	"license": "MIT",
 	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
@@ -36,5 +36,5 @@
 		"bun": ">=1.4.0",
 		"node": ">=26"
 	},
-	"packageManager": "bun@1.4.0"
+	"packageManager": "bun@1.4.2"
 }
