@@ -1,6 +1,6 @@
 {
 	"name": "@empyria/classification",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "Low-level utility functions for higher-level libraries in the Empyria nanoservice framework",
 	"license": "MIT",
 	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
@@ -29,11 +29,11 @@
 		"transliteration": "2.6.1"
 	},
 	"devDependencies": {
-		"oxfmt": "0.66.0",
-		"oxlint": "1.81.0"
+		"oxfmt": "0.67.0",
+		"oxlint": "1.82.0"
 	},
 	"engines": {
-		"bun": ">=1.4.0",
+		"bun": ">=1.4.2",
 		"node": ">=26"
 	},
 	"packageManager": "bun@1.4.2"
